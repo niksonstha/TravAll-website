@@ -1,0 +1,80 @@
+
+
+/* Sign up form style starts */
+
+.main .form{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+.main .form  form{
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+    box-shadow: 0 15px 15px rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+   
+    
+}
+.main .form form input{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main form button{
+    width: 100px;
+}
+.form #cpassword{
+    width: 100%;
+}
+form .fname,.lname,.email,.password,.cpassword,.uname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form h2{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    color: black;
+}
+.form label{
+    width: 100px;
+}
+input{
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 20px;
+    /* background: rgba(0,0,0,.1); */
+    background: rgba(255, 255, 255, .1);
+    color: rgba(255, 255, 255, .7);
+    box-shadow: 0 15px 15px rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    /* box-shadow: 0 0 5px rgba(0,0,0,.3) ; */
+    border-radius: 5px;
+}
+
+#btn{
+    padding-bottom: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    height: 20px;
+    transition: .5s ease-in-out;
+}
+#btn:hover{
+    color: black;
+    background: white;
+}
